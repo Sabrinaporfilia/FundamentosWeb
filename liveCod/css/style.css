@@ -1,0 +1,24 @@
+p{
+    font-size: 20px;
+}
+
+#p-first{
+    font-weight: bold;
+}
+
+.p-color{
+
+    color: #1cda26;
+}
+
+.container{
+
+    color: red;
+
+    display:flex;
+    align-items: center;
+    justify-content: right;
+
+    border: 5px solid #1c4fda;
+    padding: 20px;
+}

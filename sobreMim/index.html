@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -17,19 +19,53 @@
             <a href="contato.html" target="_blank"> Contato</a>
         </li>
     </ul>
-    <h1>Sobre Mim</h1>
+    <h1 class="center">Sobre Mim</h1>
 
-    <p>Olá, seja bem vindo(a) ao meu perfil!</p>
-    <p>Meu nome é Sabrina, tenho 23 anos e aqui estão coisas que amo fazer como: jogar, ver animes e séries.</p>
+    <div class="container">
 
-    <iframe width="350" height="300" src="https://www.youtube.com/embed/oOIPGHyUzQg"
-        title="Jojo no kimyou na bouken eyes of heaven edit (Villains)" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-        <br>
+        <div>
+            <img class="br-50" src="assets/images/FotoSabrina.jpg" alt="Foto do criador desse conteudo" width="150"
+                height=" 150">
+        </div>
+        <div class="p-30">
+            <p class="center">Olá, seja bem vindo(a) ao meu perfil!</p>
+            <p class="justify">Meu nome é Sabrina, tenho 23 anos e aqui estão coisas que amo fazer como: jogar, ver
+                animes e
+                séries.</p>
+        </div>
 
-    <img src="assets/images/FotoSabrina.jpg" alt="Foto do criador desse conteudo" width="150" height=" 150">
+    </div>
 
+    <h2 class="center">Video do meu anime preferido</h2>
+    <div class="container mb-50">
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/oOIPGHyUzQg"
+            title="Jojo no kimyou na bouken eyes of heaven edit (Villains)" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+
+            <a href="https://www.linkedin.com/in/sabrina-porfilia/" target="_blank">
+                <img class="tm-social p-30" src="./assets/images/linkedin.png" alt="Logo do Linkedin">
+            </a>
+
+            <a href="https://github.com/Sabrinaporfilia" target="_blank">
+                <img class="tm-social p-30" src="./assets/images/github.png" alt="Logo do GitHub">
+            </a>
+
+
+
+
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Sabrina Porfilia &copy
+        </p>
+
+
+    </footer>
 </body>
 
 </html>
